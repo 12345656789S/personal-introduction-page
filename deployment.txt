@@ -1,0 +1,4 @@
+Platform: Netlify
+Publish Dir: /
+Rollback: Previous deploy restore enabled
+Evidence: Screenshot uploaded as rollback-evidence.png
