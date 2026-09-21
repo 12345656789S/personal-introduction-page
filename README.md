@@ -8,7 +8,7 @@ HTML5, CSS3
 
 ### Deployment
 Deployed on Netlify - Free Hosting
-Live Link: your netlify link here
+Live Link:https://rad-nougat-5d6e67.netlify.app/
 
 ### Rollback Plan
 If new deploy fails, I will go to Netlify > Deploys > Select previous successful deploy > Click Publish. Also on GitHub I can revert to previous commit.
