@@ -1,17 +1,30 @@
-# Personal Introduction Page
+# VEDA Technology - Resume Website
 
-### Approach
-Built a responsive personal website using HTML5 & CSS3.
+A simple and responsive single-page resume website created using HTML5 and CSS3.
 
-### Tech Stack
-HTML5, CSS3
+## Technologies Used
 
-### Deployment
-Deployed on Netlify - Free Hosting
-Live Link:https://rad-nougat-5d6e67.netlify.app/
+- HTML5
+- CSS3
 
-### Rollback Plan
-If new deploy fails, I will go to Netlify > Deploys > Select previous successful deploy > Click Publish. Also on GitHub I can revert to previous commit.
+## Features
 
-### Outcome
-Learned basic website structure and deployment.
+- Professional resume layout
+- Responsive design
+- Profile section
+- Education section
+- Skills section
+- Experience section
+- Projects section
+- Contact section
+
+## Project Purpose
+
+This project was created to practice semantic HTML5 and CSS3 and to build a clean, professional resume website.
+
+## Author
+
+Payal Malkotia
+
+GitHub: 12345656789S
+LinkedIn: payal-malkotia-64227a343

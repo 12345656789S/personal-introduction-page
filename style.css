@@ -1,0 +1,301 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #172f6b;
+    line-height: 1.6;
+}
+
+
+/* Header */
+.top-header {
+    background: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 12px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.logo-box {
+    width: 50px;
+    height: 45px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-box span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #1e3b7a;
+}
+
+
+.logo-box small {
+    font-size: 6px;
+    color: #f36c21;
+}
+
+
+.logo h1 {
+    font-size: 25px;
+    color: #17366f;
+    letter-spacing: 1px;
+}
+
+
+.logo h1 span {
+    color: #f36c21;
+}
+
+
+/* Main Container */
+.resume-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+    padding: 45px 55px;
+    min-height: 100vh;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Intro */
+.intro {
+    border-left: 5px solid #f36c21;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+
+.intro h2 {
+    font-size: 38px;
+    color: #17366f;
+    margin-bottom: 5px;
+}
+
+
+.role {
+    color: #f36c21;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+
+/* Sections */
+.resume-section {
+    margin-bottom: 35px;
+}
+
+
+.resume-section h3 {
+    color: #f36c21;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.resume-section h3::before {
+    content: "›";
+    font-size: 25px;
+}
+
+
+.resume-section p {
+    font-size: 16px;
+}
+
+
+/* Cards */
+.card {
+    background: #f8faff;
+    border-left: 4px solid #17366f;
+    padding: 18px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+.card h4 {
+    font-size: 19px;
+    margin-bottom: 5px;
+    color: #17366f;
+}
+
+
+.card ul {
+    margin-top: 10px;
+    padding-left: 22px;
+}
+
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+
+.skills span {
+    background: #17366f;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+
+.skills span:hover {
+    background: #f36c21;
+    transform: translateY(-2px);
+}
+
+
+/* Projects */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+
+.project-card {
+    background: #f8faff;
+    padding: 20px;
+    border-top: 4px solid #f36c21;
+    border-radius: 6px;
+
+    transition: 0.3s;
+}
+
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-card h4 {
+    color: #17366f;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.project-card p {
+    font-size: 14px;
+}
+
+
+/* Contact */
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+
+.contact p {
+    background: #f8faff;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+
+.contact strong {
+    color: #f36c21;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #17366f;
+    color: white;
+}
+
+
+/* Responsive Design */
+@media (max-width: 800px) {
+
+    .top-header {
+        padding: 12px 20px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .resume-container {
+        padding: 30px 25px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    .intro h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .logo {
+        gap: 10px;
+    }
+
+    .logo-box {
+        width: 42px;
+        height: 40px;
+    }
+
+    .logo h1 {
+        font-size: 17px;
+    }
+
+    .resume-container {
+        padding: 25px 18px;
+    }
+
+    .skills span {
+        padding: 7px 13px;
+    }
+}
